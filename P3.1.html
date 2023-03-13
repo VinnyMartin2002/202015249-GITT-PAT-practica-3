@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Empezar a Jugar!</title>
+		<link rel="stylesheet" href="./P3.css" >
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<div class="container">
+		<header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+	 		<ul class="nav nav-pills">
+	      		<li class="nav-item"><a href="./P3.html" class="nav-link active" aria-current="page">Inicio</a></li>
+	       		<li class="nav-item"><a href="./P3.1.html" class="nav-link">Perfil de jugador</a></li>
+	   		</ul>
+	   	</header>
+	</div>
+	<div class="titulos" id="título-principal">
+			<h1>Perfil de Jugador</h1>
+	</div>
+	<div class="texto" id="texto-principal2">
+		<p >
+			Rellene el siguiente formulario para que le podamos brindar una experiencia más personalizada.
+		</p>
+	</div>	
+	<div class="formulario">
+		<form id="formulario1">
+			<ul>
+				<li>
+			    	<label for="nombre">Nombre:</label>
+			    	<input type="texto" id="nombre" name="user_name" placeholder="Usuario" required>
+			  	</li>
+			  	<li>
+			    	<label for="mail">Correo electrónico:</label>
+			   	 	<input type="mail" id="mail" name="user_mail" placeholder="Usuario@Ajedrez.com" required>
+			  	</li>
+			  	<li>
+			    	<label for="observaciones">Observaciones:</label>
+			    	<textarea id="observaciones" name="observaciones_usuario" placeholder="Llevo x años jugando al ajedrez y me considero de nivel y."></textarea>
+			  	</li>
+			  	<li class="button">
+ 					<button class="boton-general" onclick="validarFormulario()">Envíe su información</button>
+				</li>
+			</ul>
+		</form>
+	</div>
+		<footer class="text-center text-lg-start bg-white text-muted">
+				<section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+					<div>
+						<a href="./P3.html"><-- Volver atrás</a>
+					</div>
+			    	<div class="link" id="navegacion-avance">
+						<a href="./P3.2.html">Siguiente página--></a>
+					</div>
+			  	</section>
+			  	<section class="">
+			    	<div class="container text-center text-md-start mt-5">
+			      		<div class="row mt-3">
+							<div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+			          			<h6 class="text-uppercase fw-bold mb-4">Más sobre nosotros</h6>
+			          			<p>En AjedrezParaTodos nos compremetemos a intentar servir una página web de calidad para como mínimo aprobar la asignatura de PAT.</p>
+			          		</div>
+			        		<!--
+					        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+					          <h6 class="text-uppercase fw-bold mb-4">
+					            Useful links
+					          </h6>
+					          <p>
+					            <a href="#!" class="text-reset">Pricing</a>
+					          </p>
+					          <p>
+					            <a href="#!" class="text-reset">Settings</a>
+					          </p>
+					          <p>
+					            <a href="#!" class="text-reset">Orders</a>
+					          </p>
+					          <p>
+					            <a href="#!" class="text-reset">Help</a>
+					          </p>
+					        </div>-->
+					        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+					          <h6 class="text-uppercase fw-bold mb-4">Contactáctanos</h6>
+					          <p class="fas fa-home me-3 text-secondary"> Madrid, España, c/Alberto Aguilera</p>
+					          <p class="fas fa-envelope me-3 text-secondary">202015240@alu.comillas.edu.com</p>
+					          <p class="fas fa-phone me-3 text-secondary"> + 34 123 45 67 89 </p>
+					        </div>
+			      		</div>
+			    	</div>
+			  	</section>
+				<div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+			   		<p>© 2023 Copyright:
+			  		<a class="text-reset fw-bold" href="./P3.html">AjedrezParaTodos</a>
+			  		</p>
+			  	</div>
+			</footer>
+</html>
