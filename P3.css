@@ -47,8 +47,7 @@ tr.par{
 	background:lightgrey;
 }
 form {
-  margin: 0 auto;
-  width: 400px;
+  margin: 5em;
   padding: 1em;
   border: 1px solid #CCC;
   border-radius: 1em;
